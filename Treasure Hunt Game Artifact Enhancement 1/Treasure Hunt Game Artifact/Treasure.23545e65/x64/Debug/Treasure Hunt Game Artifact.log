@@ -1,0 +1,86 @@
+﻿  GameExperience.cpp
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.cpp(30,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.cpp(31,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(38,7): error C2011: 'Model': 'class' type redefinition
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(11,7):
+      see declaration of 'Model'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(84,36): error C2027: use of undefined type 'Model'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(11,7):
+      see declaration of 'Model'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(84,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(96,33): error C2248: 'TreasureMaze::free_cells': cannot access private member declared in class 'TreasureMaze'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.h(36,38):
+      see declaration of 'TreasureMaze::free_cells'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.h(19,7):
+      see declaration of 'TreasureMaze'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(115,43): error C2248: 'GameExperience::model': cannot access private member declared in class 'GameExperience'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(52,11):
+      see declaration of 'GameExperience::model'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(41,7):
+      see declaration of 'GameExperience'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(115,43): error C2027: use of undefined type 'Model'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(11,7):
+      see declaration of 'Model'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(116,40): error C3536: 'q_values': cannot be used before it is initialized
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(117,26): error C2672: 'std::max_element': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(6889,19):
+      could be '_FwdIt std::max_element(_ExPo &&,_FwdIt,_FwdIt) noexcept'
+          C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(117,26):
+          '_FwdIt std::max_element(_ExPo &&,_FwdIt,_FwdIt) noexcept': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(6881,19):
+      or       '_FwdIt std::max_element(_ExPo &&,_FwdIt,_FwdIt,_Pr) noexcept'
+          C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(117,26):
+          '_FwdIt std::max_element(_ExPo &&,_FwdIt,_FwdIt,_Pr) noexcept': expects 4 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(6875,29):
+      or       '_FwdIt std::max_element(_FwdIt,_FwdIt)'
+          C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(117,26):
+          '_FwdIt std::max_element(_FwdIt,_FwdIt)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(6867,29):
+      or       '_FwdIt std::max_element(_FwdIt,_FwdIt,_Pr)'
+          C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(117,26):
+          '_FwdIt std::max_element(_FwdIt,_FwdIt,_Pr)': expects 3 arguments - 1 provided
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(116,31): error C2672: 'std::distance': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1606,45):
+      could be 'iterator_traits<_Iter>::difference_type std::distance(_InIt,_InIt)'
+          C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(116,31):
+          'iterator_traits<_Iter>::difference_type std::distance(_InIt,_InIt)': expects 2 arguments - 1 provided
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(132,23): error C2248: 'GameExperience::model': cannot access private member declared in class 'GameExperience'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(52,11):
+      see declaration of 'GameExperience::model'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(41,7):
+      see declaration of 'GameExperience'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(132,23): error C2027: use of undefined type 'Model'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(11,7):
+      see declaration of 'Model'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(133,36): error C2248: 'GameExperience::model': cannot access private member declared in class 'GameExperience'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(52,11):
+      see declaration of 'GameExperience::model'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(41,7):
+      see declaration of 'GameExperience'
+  
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\main.cpp(133,36): error C2027: use of undefined type 'Model'
+      C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\GameExperience.h(11,7):
+      see declaration of 'Model'
+  
+  TreasureMaze.cpp
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(7,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(8,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(78,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(79,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(107,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(108,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(130,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(131,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(151,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Privilege\CS 499\Treasure Hunt Game Artifact\TreasureMaze.cpp(152,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
